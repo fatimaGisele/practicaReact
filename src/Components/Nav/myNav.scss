@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(61, 65, 65);
+    height: 100px;
+    .item{
+        padding: 25px;
+        .link{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2rem; 
+            text-decoration: none;
+            list-style: none;
+            color: rgb(221, 159, 221);
+        }
+    }
+}

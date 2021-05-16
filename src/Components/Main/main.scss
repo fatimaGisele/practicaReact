@@ -1,0 +1,35 @@
+.main{
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    .sub{
+        width: 70%;
+        height: 50%;
+        background-color: rgba(255, 235, 205, 0.849);
+        color: rgb(50, 46, 54);
+        border-radius: 2%;
+        padding: 25px;
+        .control{
+            width: 100%;
+            height: 20px;
+            padding: 2px;
+            align-items: center;
+        }
+        .button{
+            background-color:rgb(87, 80, 94) ;
+            color: rgba(255, 235, 205, 0.849);
+            border-radius: 5%;
+            margin: 10%;
+            width: 60%;
+            height: 20%;
+        }
+    }
+    
+    
+}
