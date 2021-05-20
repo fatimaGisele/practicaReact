@@ -1,0 +1,46 @@
+.back{
+        background-color: rgba(255, 255, 0, 0.692);
+        display: block;
+        padding-top: 15px;
+        margin: 80px;
+        border-radius: 2%;
+        color:rgb(20, 20, 20);
+        .list{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 1.3rem;
+            text-align: center;
+            .button{
+                background-color:rgb(87, 80, 94) ;
+                color: rgba(255, 235, 205, 0.849);
+                border-radius: 5%;
+                padding: 15px;
+                margin: 3%;
+                width: 40%;
+                height: inherit;
+            }
+            
+        }
+       
+    }
+  
+    @media (max-width: 800px) {
+        .back{
+            margin-top: 15px;
+            width: 80%;
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: 0;
+            bottom: 0;
+            .list{
+                .button{
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+
+
